@@ -1,0 +1,50 @@
+body{
+    background-color: black; 
+    margin: 0
+}
+h1{
+    font-size: 30px
+}
+.postcard{
+    background: white; 
+    width: 500px; 
+    height: 300px;
+    position: absolute; 
+    left: 25%; top: 25%;
+    padding: 10px 
+}
+.postcard h1{
+    display: inline-block
+}
+.postcard-header img{
+    float: right;
+    max-width: 60px
+}
+.right-part{
+    float: right; 
+    width: 50%
+}
+.right-part input{
+    display: block;
+    border: none;
+    border-bottom: 1px solid grey
+}
+.left-part{float: left; 
+    width: 50%
+}
+.postcard-botom{
+    text-align: center;
+    display: block
+}
+.postcard-botom input{
+    border:1px solid grey   
+}
+.postcard-body{
+    overflow: hidden
+}
+input{
+    margin: 10px
+}
+p{
+    margin-top: 0
+}
